@@ -14,13 +14,13 @@ const config = {
   url: 'https://my-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/writing/',
+  baseUrl: '/journal/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'adamliechty', // Usually your GitHub org/user name.
-  projectName: 'writing', // Usually your repo name.
+  projectName: 'journal', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +78,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           // { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/blog', label: 'Writing', position: 'left' },
+          { to: '/blog', label: 'Journal', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
