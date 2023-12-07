@@ -1,0 +1,1 @@
+(self.webpackChunkjournal=self.webpackChunkjournal||[]).push([[5684],{9039:(s,u,a)=>{"use strict";a.d(u,{Z:()=>n});var e=a(1336);const n=e},6165:()=>{}}]);
