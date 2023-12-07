@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Journal',
   // tagline: 'Dinosaurs are cool',
   // favicon: 'img/favicon.ico',
@@ -47,6 +48,7 @@ const config = {
         // },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
