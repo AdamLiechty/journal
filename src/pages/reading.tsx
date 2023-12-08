@@ -18,7 +18,9 @@ export default function Reading(): JSX.Element {
 }
 
 function Checklist(): JSX.Element {
-  const [thumbnails, setThumbnails] = useState(true);
+  const [thumbnails, setThumbnails] = useState(
+    !localStorage.getItem("thumbsHidden")
+  );
   return (
     <table className={clsx(styles.table)}>
       <thead>
@@ -51,7 +53,14 @@ function Checklist(): JSX.Element {
   );
 
   function clickVideoHeader() {
-    setThumbnails((x) => !x);
+    setThumbnails((x) => {
+      if (x) {
+        localStorage.setItem("thumbsHidden", "1");
+      } else {
+        localStorage.removeItem("thumbsHidden");
+      }
+      return !x;
+    });
   }
 }
 
@@ -92,7 +101,7 @@ interface CheckBoxProps {
 }
 function CheckBox({ part, day, children }: CheckBoxProps) {
   const key = `${day}-${part}`;
-  const [checked, setChecked] = useState(localStorage.getItem(key));
+  const [checked, setChecked] = useState(!!localStorage.getItem(key));
   return (
     <label style={{ display: "flex" }}>
       <input
