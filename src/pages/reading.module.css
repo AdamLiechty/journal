@@ -39,12 +39,17 @@ div.whitePage {
   align-items: center;
 }
 
+img.bp {
+  width: 7em;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   img.bp {
-    height: 15px !important;
+    width: 4.5em !important;
   }
 
-  .titleAfterVideo {
+  .mobileHidden {
     display: none;
   }
 }
@@ -55,11 +60,6 @@ div.whitePage {
 }
 .table a {
   color: rgb(0, 104, 132);
-}
-
-img.bp {
-  height: 26px;
-  cursor: pointer;
 }
 
 .checkbox {

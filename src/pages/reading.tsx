@@ -34,7 +34,7 @@ function Checklist(): JSX.Element {
               alt="Video"
               src="https://ik.imagekit.io/bpweb1/web/media/Brand/logoicontextdark.svg?tr=q-65"
             />
-            <span className={clsx(styles.toggleText)}>
+            <span className={clsx(styles.toggleText, styles.mobileHidden)}>
               ({thumbnails ? "hide" : "show"} thumbnails)
             </span>
           </th>
@@ -149,7 +149,7 @@ function Video({ video, title, thumbnail }: VideoProps) {
       target="_blank"
     >
       {thumbnail && <img src={video.thumbnails?.default?.url} />}
-      <span className={thumbnail ? clsx(styles.titleAfterVideo) : ""}>
+      <span className={thumbnail ? clsx(styles.mobileHidden) : ""}>
         {title || abbrev(video.title)}
       </span>
     </a>
