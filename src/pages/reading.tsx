@@ -94,7 +94,7 @@ function CheckBox({ part, day, children }: CheckBoxProps) {
   const key = `${day}-${part}`;
   const [checked, setChecked] = useState(localStorage.getItem(key));
   return (
-    <label>
+    <label style={{ display: "flex" }}>
       <input
         type="checkbox"
         onChange={toggle}
