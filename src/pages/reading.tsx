@@ -32,6 +32,9 @@ function Checklist(): JSX.Element {
               alt="Video"
               src="https://ik.imagekit.io/bpweb1/web/media/Brand/logoicontextdark.svg?tr=q-65"
             />
+            <span className={clsx(styles.toggleText)}>
+              ({thumbnails ? "hide" : "show"} thumbnails)
+            </span>
           </th>
         </tr>
       </thead>

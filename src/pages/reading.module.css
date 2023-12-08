@@ -34,7 +34,7 @@ div.whitePage {
 }
 .table img {
   vertical-align: middle;
-  height: 3em;
+  height: 5em;
   margin: 0.2em 0.5em 0.2em;
 }
 .table a {
@@ -48,4 +48,10 @@ img.bp {
 
 .checkbox {
   background-color: white;
+}
+
+.toggleText {
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 0.5em;
 }
