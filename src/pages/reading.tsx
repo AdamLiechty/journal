@@ -1,18 +1,19 @@
-import React, { ChangeEventHandler, useState } from "react";
+import React, { useState } from "react";
 import clsx from "clsx";
-import readings from "./readingData";
-
-// import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-// import Layout from "@theme/Layout";
+import readings from "./_readingData";
 
 import styles from "./reading.module.css";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 export default function Reading(): JSX.Element {
-  // const { siteConfig } = useDocusaurusContext();
   return (
-    <div className={clsx(styles.whitePage)}>
-      <Checklist />
-    </div>
+    <BrowserOnly>
+      {() => (
+        <div className={clsx(styles.whitePage)}>
+          <Checklist />
+        </div>
+      )}
+    </BrowserOnly>
   );
 }
 
