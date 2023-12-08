@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   plugins: [require.resolve('docusaurus-lunr-search')],
-  title: 'Journal',
+  title: 'Story of God',
   // tagline: 'Dinosaurs are cool',
   // favicon: 'img/favicon.ico',
 
@@ -54,6 +54,9 @@ const config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        pages: {
+
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,12 +70,13 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Journal',
+        title: 'Story of God',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
         // },
         items: [
+          { to: '/reading', label: 'Reading', position: 'left' }
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',
@@ -80,7 +84,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           // { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/blog', label: 'Journal', position: 'left' },
+          // { to: '/blog', label: 'Journal', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

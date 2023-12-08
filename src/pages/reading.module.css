@@ -1,0 +1,51 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+div.whitePage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  color-scheme: light;
+}
+
+.table {
+  position: relative;
+}
+.table th {
+  position: sticky;
+  top: 0;
+}
+
+.table, .table th, .table td, .table tr {
+  padding: 0;
+  width: fit-content;
+  margin: 10px auto;
+  vertical-align: middle;
+  border: none;
+  text-align: left;
+}
+
+.table td {
+  padding-right: 1.7em;
+}
+.table img {
+  vertical-align: middle;
+  height: 3em;
+  margin: 0.2em 0.5em 0.2em;
+}
+.table a {
+  color: rgb(0, 104, 132);
+}
+
+img.bp {
+  height: 26px;
+  cursor: pointer;
+}
+
+.checkbox {
+  background-color: white;
+}
