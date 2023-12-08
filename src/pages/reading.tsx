@@ -80,14 +80,11 @@ function ReadingRow({ reading, videoThumbnails }) {
       </td>
       <td>
         {reading[4] && (
-          <span>
-            <CheckBox part="video" day={reading[0]} />
-            <Video
-              video={reading[4]}
-              title={reading[3]}
-              thumbnail={videoThumbnails}
-            />
-          </span>
+          <Video
+            video={reading[4]}
+            title={reading[3]}
+            thumbnail={videoThumbnails}
+          />
         )}
       </td>
     </tr>
@@ -103,7 +100,7 @@ function CheckBox({ part, day, children }: CheckBoxProps) {
   const key = `${day}-${part}`;
   const [checked, setChecked] = useState(!!localStorage.getItem(key));
   return (
-    <label style={{ display: "flex" }}>
+    <label>
       <input
         type="checkbox"
         onChange={toggle}
@@ -152,7 +149,9 @@ function Video({ video, title, thumbnail }: VideoProps) {
       target="_blank"
     >
       {thumbnail && <img src={video.thumbnails?.default?.url} />}
-      {title || abbrev(video.title)}
+      <span className={thumbnail ? clsx(styles.titleAfterVideo) : ""}>
+        {title || abbrev(video.title)}
+      </span>
     </a>
   );
 }
