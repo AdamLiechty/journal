@@ -37,6 +37,9 @@ div.whitePage {
   .table img {
     height: 3em !important;
   }
+  img.bp {
+    height: 15px !important;
+  }
 }
 .table img {
   vertical-align: middle;
