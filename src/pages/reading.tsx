@@ -148,7 +148,7 @@ function Video({ video, title, thumbnail }: VideoProps) {
       href={`https://www.youtube.com/watch?v=${video.videoId}`}
       target="_blank"
     >
-      {thumbnail && <img src={video.thumbnails?.default?.url} />}
+      {thumbnail && <img src={video.thumbnails?.medium?.url} />}
       <span className={thumbnail ? clsx(styles.mobileHidden) : ""}>
         {title || abbrev(video.title)}
       </span>
