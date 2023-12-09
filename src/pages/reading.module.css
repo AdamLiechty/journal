@@ -29,9 +29,11 @@ div.whitePage {
   text-align: left;
 }
 
-.table td {
+.table td:not(:last-child) {
+  padding-right: 0.7em;
+}
+.table td:first-child {
   padding-left: 0.2em;
-  padding-right: 1.7em;
 }
 
 .table label {
@@ -56,7 +58,7 @@ img.bp {
 .table img {
   vertical-align: middle;
   width: 7em;
-  margin: 0.2em 0.5em 0.2em;
+  margin: 0.2em 0.5em 0.2em 0;
 }
 .table a {
   color: rgb(0, 104, 132);
