@@ -35,6 +35,9 @@ div.whitePage {
 .table td:first-child {
   padding-left: 0.2em;
 }
+.table td:last-child {
+  padding-right: 0.2em;
+}
 
 .table label {
   display: flex;
