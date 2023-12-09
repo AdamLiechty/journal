@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import readings from "./_readingData";
 
@@ -18,11 +18,13 @@ export default function Reading(): JSX.Element {
 }
 
 function Checklist(): JSX.Element {
+  const tableRef = useRef(null);
   const [thumbnails, setThumbnails] = useState(
     !localStorage.getItem("thumbsHidden")
   );
+  useScrollPastLaskCheckedCheckbox(tableRef);
   return (
-    <table className={clsx(styles.table)}>
+    <table ref={tableRef} className={clsx(styles.table)}>
       <thead>
         <tr>
           <th>☀️ Day</th>
@@ -62,6 +64,33 @@ function Checklist(): JSX.Element {
       return !x;
     });
   }
+}
+
+function useScrollPastLaskCheckedCheckbox(elementRef) {
+  let timeout = null;
+  useEffect(() => {
+    if (!elementRef.current) return;
+    function scrollSoon() {
+      if (timeout) clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        const inputs = Array.from(
+          elementRef.current.getElementsByTagName("input")
+        );
+        const checked = inputs.filter((x) => x.checked);
+        if (checked.length) {
+          const last = checked[checked.length - 1];
+          last.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 500);
+    }
+    scrollSoon();
+    const mo = new MutationObserver(scrollSoon);
+    mo.observe(elementRef.current, { childList: true });
+    return () => {
+      if (timeout) clearTimeout(timeout);
+      mo.disconnect();
+    };
+  }, []);
 }
 
 function ReadingRow({ reading, videoThumbnails }) {
@@ -113,7 +142,6 @@ function CheckBox({ part, day, children }: CheckBoxProps) {
 
   function toggle(e) {
     const { checked } = e.currentTarget;
-    console.log(checked);
     if (checked) {
       localStorage.setItem(key, "1");
     } else {
