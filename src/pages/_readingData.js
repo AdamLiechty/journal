@@ -593,22 +593,22 @@ export default [
     "119:97-128",
     "Gospel of the Kingdom",
     {
-      "videoId": "APEO0FNzwoM",
-      "title": "Why Is Jesus Always Talking About the Kingdom of God? • Gospel of the Kingdom Ep. 1",
-      "description": "The Kingdom of God is central to Jesus' message, but it can be difficult to understand it as a concept. Join Tim and Jon as they ...",
+      "videoId": "xmFPS0f-kzs",
+      "title": "How Jesus Became the King of the World (That He Always Was)",
+      "description": "The Kingdom of God is central to Jesus' message, but it can be difficult to understand it as a concept...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/APEO0FNzwoM/default.jpg",
+          "url": "https://i.ytimg.com/vi/xmFPS0f-kzs/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/APEO0FNzwoM/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/xmFPS0f-kzs/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/APEO0FNzwoM/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/xmFPS0f-kzs/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
