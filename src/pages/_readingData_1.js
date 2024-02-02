@@ -647,34 +647,5 @@ export default [
       },
       "channelTitle": "BibleProject"
     }
-  ],
-  [
-    "Feb. 3",
-    "Hosea 1-5",
-    "122",
-    "OT Overviews: Hosea",
-    {
-      "videoId": "kE6SZ1ogOVU",
-      "title": "Book of Hosea Summary: A Complete Animated Overview",
-      "description": "Watch our overview video on the book of Hosea, which breaks down the literary design of the book and its flow of thought. In this ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/kE6SZ1ogOVU/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/kE6SZ1ogOVU/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/kE6SZ1ogOVU/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "BibleProject"
-    }
   ]
 ]

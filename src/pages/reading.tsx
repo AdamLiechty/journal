@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
-import readings from "./_readingData";
+import reading1 from "./_readingData_1";
+import reading2 from "./_readingData_2";
 
 import styles from "./reading.module.css";
 import BrowserOnly from "@docusaurus/BrowserOnly";
@@ -10,14 +11,19 @@ export default function Reading(): JSX.Element {
     <BrowserOnly>
       {() => (
         <div className={clsx(styles.whitePage)}>
-          <Checklist />
+          <Checklist readings={reading2} />
+          <Accordion text="Dec 4 - Feb 2"><Checklist readings={reading1} /></Accordion>
+          
         </div>
       )}
     </BrowserOnly>
   );
 }
 
-function Checklist(): JSX.Element {
+interface CheckListProps {
+  readings: any[];
+}
+function Checklist({readings}: CheckListProps): JSX.Element {
   const tableRef = useRef(null);
   const [thumbnails, setThumbnails] = useState(
     !localStorage.getItem("thumbsHidden")
@@ -182,4 +188,28 @@ function Video({ video, title, thumbnail }: VideoProps) {
       </span>
     </a>
   );
+}
+
+interface AccordionProps {
+  text: string;
+  children: any;
+}
+function Accordion({ text, children }: AccordionProps) {
+  const key = `accordion-${text}`;
+  const [isExpanded, setIsExpanded] = useState(!!localStorage.getItem(key));
+  return (
+    <div>
+      <div className={clsx(styles.accordion)} onClick={toggle}>{isExpanded ? '⬇️' : '➡️'} {text}</div>
+      {isExpanded && children}
+    </div>
+  );
+
+  function toggle() {
+    if (isExpanded) {
+      localStorage.removeItem(key);
+    } else {
+      localStorage.setItem(key, "expanded");
+    }
+    setIsExpanded(val => !val)
+  }
 }

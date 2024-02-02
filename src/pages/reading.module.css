@@ -12,12 +12,37 @@ div.whitePage {
   color-scheme: light;
 }
 
+.accordion {
+  margin: 10px auto;
+  text-align: center;
+  cursor: pointer;
+}
+@media print{
+  .accordion, .toggleText {
+    display: none;
+  }
+}
+
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+}
+table.table th {
+  background: white;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
 .table {
   position: relative;
 }
-.table th {
+.table th, .table thead, .table thead tr {
   position: sticky;
   top: 0;
+  background-color: white;
 }
 
 .table, .table th, .table td, .table tr {
@@ -29,7 +54,7 @@ div.whitePage {
   text-align: left;
 }
 
-.table td:not(:last-child) {
+.table td:not(:last-child), .table th:not(:last-child) {
   padding-right: 0.7em;
 }
 .table td:first-child {
