@@ -33,9 +33,9 @@ function Checklist({readings}: CheckListProps): JSX.Element {
     <table ref={tableRef} className={clsx(styles.table)}>
       <thead>
         <tr>
-          <th>☀️ Day</th>
+          <th>Day</th>
           <th>📖 Reading</th>
-          <th>🎵 Psalm</th>
+          <th>Psalm</th>
           <th onClick={clickVideoHeader}>
             <img
               className={clsx(styles.bp)}
