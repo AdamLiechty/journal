@@ -618,7 +618,29 @@ export default [
   ],
   ["Jan. 30", "Isaiah 55-57", "119:129-152", null, null],
   ["Jan. 31", "Isaiah 58-60", "119:153-176", null, null],
-  ["Feb. 1", "Isaiah 61-64", "120", null, null],
+  ["Feb. 1", "Isaiah 61-64", "120", "Isaiah 61", {
+    "videoId": "_TzdEPuqgQg",
+    "title": "Isaiah 61",
+    "description": "Isaiah 61",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/d_Q6WkD_Pas/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/d_Q6WkD_Pas/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/d_Q6WkD_Pas/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "channelTitle": "BibleProject"
+  }],
   [
     "Feb. 2",
     "Isaiah 65-66",
