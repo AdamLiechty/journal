@@ -61,8 +61,14 @@ export default [
   ["Dec. 7", "Josh. 13-21", "68", null, null],
   [
     "Dec. 8",
-    "Josh. 22-24, Judges 1-3",
-    "69, 70",
+    "Josh. 22-24",
+    "69",
+    null
+  ],
+  [
+    "Dec. 8",
+    "Judges 1-3",
+    "70",
     "OT Overviews: Judges",
     {
       "videoId": "kOYy8iCfIJ4",
