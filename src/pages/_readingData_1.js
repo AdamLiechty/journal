@@ -66,7 +66,7 @@ export default [
     null
   ],
   [
-    "Dec. 8",
+    "Dec 8",
     "Judges 1-3",
     "70",
     "OT Overviews: Judges",

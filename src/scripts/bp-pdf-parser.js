@@ -17,7 +17,7 @@ function parseLine(line, index) {
     const parts = line.split(' ')
     const day = addDays(startDate, index)
     parts.shift()
-    if (!(parts[0].match(/^[0-9]+-/) || parts[0].match(/^[0-9]+/) && parts[1].match(/^[0-9]+/))) {
+    if (!(parts[0].match(/^[0-9]+-/) || parts[0].match(/^[0-9]+$/) && parts[1].match(/^[0-9]+/))) {
         book = parts.shift().replace(/_/g, ' ')
     }
     const chapters = parts.shift()
