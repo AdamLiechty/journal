@@ -2108,21 +2108,21 @@ export default [
     "5",
     "NT Overviews: Galatians",
     {
-      "title": "New Testament",
-      "description": "We want you to read through the Bible without getting lost or giving up. We provide a video for every book of the Bible that outlines ...",
+      "title": "Galatians",
+      "description": "Galatians",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/default.jpg",
+          "url": "https://i.ytimg.com/vi/vmx4UjRFp0M/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/vmx4UjRFp0M/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/vmx4UjRFp0M/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
@@ -2475,22 +2475,22 @@ export default [
     "23",
     "NT Overviews: Titus",
     {
-      "videoId": "7RoqnGcEjcs",
+      "videoId": "PUEYCVXJM3k",
       "title": "Book of 1 Timothy Summary: A Complete Animated Overview",
       "description": "Watch our overview video on 1 Timothy, which breaks down the literary design of the book and its flow of thought. In 1 Timothy ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/7RoqnGcEjcs/default.jpg",
+          "url": "https://i.ytimg.com/vi/PUEYCVXJM3k/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/7RoqnGcEjcs/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/PUEYCVXJM3k/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/7RoqnGcEjcs/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/PUEYCVXJM3k/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
@@ -2533,22 +2533,22 @@ export default [
     "25",
     "NT Overviews: Hebrews",
     {
-      "videoId": "Q0BrP8bqj0c",
-      "title": "New Testament Summary: A Complete Animated Overview",
-      "description": "Watch our overview video on the New Testament. This video breaks down the literary design of the entire New Testament and ...",
+      "videoId": "1fNWTZZwgbs",
+      "title": "Hebrews",
+      "description": "Hebrews",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/default.jpg",
+          "url": "https://i.ytimg.com/vi/1fNWTZZwgbs/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/1fNWTZZwgbs/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/Q0BrP8bqj0c/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/1fNWTZZwgbs/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
