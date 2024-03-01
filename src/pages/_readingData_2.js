@@ -447,7 +447,7 @@ export default [
   ],
   [
     "Feb 29",
-    "Proverbs 1",
+    "Proverbs 1-3",
     "148",
     "The Books of Solomon",
     {
