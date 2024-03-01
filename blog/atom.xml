@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://my-site.com/journal/blog</id>
     <title>Story of God Blog</title>
-    <updated>2024-01-26T00:00:00.000Z</updated>
+    <updated>2024-02-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://my-site.com/journal/blog"/>
     <subtitle>Story of God Blog</subtitle>
@@ -10,10 +10,21 @@
         <title type="html"><![CDATA[Isaiah 42-44 & Psalm 119:1-32]]></title>
         <id>https://my-site.com/journal/blog/isaiah-42-44</id>
         <link href="https://my-site.com/journal/blog/isaiah-42-44"/>
-        <updated>2024-01-26T00:00:00.000Z</updated>
+        <updated>2024-02-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Psalm 119  I shall run the way of Your commandments,]]></summary>
         <content type="html"><![CDATA[<p>Psalm 119:32: &nbsp;I shall run the way of Your commandments,
 For You will enlarge my heart.</p><p>I love this promise of an increase of capacity to keep his commandments, but it requires running that way before getting that heart-enlargement.</p>]]></content>
+        <author>
+            <name>Adam Liechty</name>
+            <uri>https://github.com/adamliechty</uri>
+        </author>
+        <category label="journal" term="journal"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Job 16-19 & Psalm ???]]></title>
+        <id>https://my-site.com/journal/blog/job-16-19</id>
+        <link href="https://my-site.com/journal/blog/job-16-19"/>
+        <updated>2024-01-26T00:00:00.000Z</updated>
         <author>
             <name>Adam Liechty</name>
             <uri>https://github.com/adamliechty</uri>

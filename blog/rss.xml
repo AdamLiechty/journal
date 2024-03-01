@@ -4,7 +4,7 @@
         <title>Story of God Blog</title>
         <link>https://my-site.com/journal/blog</link>
         <description>Story of God Blog</description>
-        <lastBuildDate>Fri, 26 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,10 +12,17 @@
             <title><![CDATA[Isaiah 42-44 & Psalm 119:1-32]]></title>
             <link>https://my-site.com/journal/blog/isaiah-42-44</link>
             <guid>https://my-site.com/journal/blog/isaiah-42-44</guid>
-            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 26 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Psalm 119  I shall run the way of Your commandments,]]></description>
             <content:encoded><![CDATA[<p>Psalm 119:32: &nbsp;I shall run the way of Your commandments,
 For You will enlarge my heart.</p><p>I love this promise of an increase of capacity to keep his commandments, but it requires running that way before getting that heart-enlargement.</p>]]></content:encoded>
+            <category>journal</category>
+        </item>
+        <item>
+            <title><![CDATA[Job 16-19 & Psalm ???]]></title>
+            <link>https://my-site.com/journal/blog/job-16-19</link>
+            <guid>https://my-site.com/journal/blog/job-16-19</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
             <category>journal</category>
         </item>
         <item>
