@@ -642,7 +642,7 @@ export default [
   ],
   [
     "Mar 9",
-    "Proverbs 28",
+    "Proverbs 28-31",
     "7",
     "OT Overviews: Proverbs",
     {
