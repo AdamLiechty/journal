@@ -12,7 +12,10 @@ export default function Reading(): JSX.Element {
       {() => (
         <div className={clsx(styles.whitePage)}>
           <Checklist readings={reading2} />
-          <div className={clsx(styles.accordion)}><Link to="/reading-2" title="Feb 3 - Apr 1">Feb 3 - Apr 1</Link></div>
+          <div className={clsx(styles.accordion)}>
+            <Link to="/reading-2" title="Feb 3 - Apr 1">&lt; Feb 3 - Apr 1</Link>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <Link to="/reading-rest" title="Feb 3 - Apr 1">May 22 - end &gt;</Link>
+          </div>
           
         </div>
       )}
