@@ -4,6 +4,7 @@ import reading1 from "./_readingData_1";
 
 import styles from "./reading.module.css";
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import Link from "@docusaurus/Link";
 
 export default function Reading(): JSX.Element {
   return (
@@ -11,6 +12,9 @@ export default function Reading(): JSX.Element {
       {() => (
         <div className={clsx(styles.whitePage)}>
           <Checklist readings={reading1} />
+          <div className={clsx(styles.accordion)}>
+            <Link to="/reading-2" title="Feb 3 - Apr 1">Feb 3 - Apr 1 &gt;</Link>
+          </div>
         </div>
       )}
     </BrowserOnly>

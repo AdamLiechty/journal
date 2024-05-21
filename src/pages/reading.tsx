@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
-import reading2 from "./_readingData_3";
+import reading4 from "./_readingData_4";
 
 import styles from "./reading.module.css";
 import BrowserOnly from "@docusaurus/BrowserOnly";
@@ -11,12 +11,10 @@ export default function Reading(): JSX.Element {
     <BrowserOnly>
       {() => (
         <div className={clsx(styles.whitePage)}>
-          <Checklist readings={reading2} />
+          <Checklist readings={reading4} />
           <div className={clsx(styles.accordion)}>
-            <Link to="/reading-2" title="Feb 3 - Apr 1">&lt; Feb 3 - Apr 1</Link>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <Link to="/reading-rest" title="Feb 3 - Apr 1">May 22 - end &gt;</Link>
+            <Link to="/reading-3" title="Apr 2 - May 21">&lt; Apr 2 - May 21</Link>
           </div>
-          
         </div>
       )}
     </BrowserOnly>
