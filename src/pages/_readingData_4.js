@@ -186,22 +186,22 @@ export default [
     "88",
     "NT Overviews: Matthew 14-28",
     {
-      "videoId": "XX-aAg4_U2Q",
-      "title": "Why Jesus Told Parables (and How You Can Understand Them)",
-      "description": "Jesus of Nazareth was a master storyteller, and many of his most well-known teachings were told as parables. But these stories ...",
+      "videoId": "GGCF3OPWN14",
+      "title": "Gospel of Matthew Summary: A Complete Animated Overview (Part 2)",
+      "description": "Gospel of Matthew Summary: A Complete Animated Overview (Part 2)",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XX-aAg4_U2Q/default.jpg",
+          "url": "https://i.ytimg.com/vi/GGCF3OPWN14/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XX-aAg4_U2Q/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/GGCF3OPWN14/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XX-aAg4_U2Q/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/GGCF3OPWN14/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
