@@ -264,29 +264,117 @@ export default [
     "May 31",
     "Matthew 19-20",
     "90",
-    null,
-    null
+    "Beatitudes",
+    {
+      "videoId": "s9246LGlngs",
+      "title": "Beatitudes",
+      "description": "Beatitudes",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/s9246LGlngs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/s9246LGlngs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/s9246LGlngs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BibleProject"
+    }
   ],
   [
     "Jun 1",
     "Matthew 21-22",
     "91",
-    null,
-    null
+    "What is Right?",
+    {
+      "videoId": "KUil1m3P2iI",
+      "title": "What is Right?",
+      "description": "What is Right?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KUil1m3P2iI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KUil1m3P2iI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KUil1m3P2iI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BibleProject"
+    }
   ],
   [
     "Jun 2",
     "Matthew 23-24",
     "92",
-    null,
-    null
+    "Anger, Murder, Lust, Adultery",
+    {
+      "videoId": "okFibMvn3t0",
+      "title": "Anger, Murder, Lust, Adultery",
+      "description": "Anger, Murder, Lust, Adultery",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/okFibMvn3t0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/okFibMvn3t0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/okFibMvn3t0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BibleProject"
+    }
   ],
   [
     "Jun 3",
     "Matthew 25-26",
     "93",
-    null,
-    null
+    "Oaths & Enemies",
+    {
+      "videoId": "3EkD-alQhT8",
+      "title": "Don't Make Oaths. Turn the Other Cheek. Love Your Enemies. Buy Why?",
+      "description": "Don't Make Oaths. Turn the Other Cheek. Love Your Enemies. Buy Why?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3EkD-alQhT8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3EkD-alQhT8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3EkD-alQhT8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BibleProject"
+    }
   ],
   [
     "Jun 4",
