@@ -61,24 +61,24 @@ export default [
     "May 24",
     "Matthew 5-6",
     "83",
-    "Setting",
+    "Sermon on the Mount",
     {
-      "videoId": "7FuT8WtoAK0",
-      "title": "Setting in Biblical Narrative",
-      "description": "Every story has to take place somewhere, and very often locations have a special meaning or significance evoked by events that ...",
+      "videoId": "NtKb7CJDUZc",
+      "title": "When is God's Will Done on Earth?",
+      "description": "When is God's Will Done on Earth?",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/default.jpg",
+          "url": "https://i.ytimg.com/vi/NtKb7CJDUZc/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/NtKb7CJDUZc/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/NtKb7CJDUZc/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
@@ -148,8 +148,30 @@ export default [
     "May 27",
     "Matthew 11-12",
     "86",
-    null,
-    null
+    "Setting",
+    {
+      "videoId": "7FuT8WtoAK0",
+      "title": "Setting in Biblical Narrative",
+      "description": "Every story has to take place somewhere, and very often locations have a special meaning or significance evoked by events that ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7FuT8WtoAK0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BibleProject"
+    }
   ],
   [
     "May 28",
