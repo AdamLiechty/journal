@@ -634,22 +634,22 @@ export default [
     "108",
     "NT Overviews: John 1-12",
     {
-      "videoId": "l3QkE6nKylM",
-      "title": "Books of 1-3 John Summary: A Complete Animated Overview",
+      "videoId": "G-2e9mMf7E8",
+      "title": "John 1-12",
       "description": "Watch our overview video on the letters of John, which breaks down the literary design of the books and their flow of thought. John ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/l3QkE6nKylM/default.jpg",
+          "url": "https://i.ytimg.com/vi/G-2e9mMf7E8/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/l3QkE6nKylM/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/G-2e9mMf7E8/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/l3QkE6nKylM/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/G-2e9mMf7E8/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
